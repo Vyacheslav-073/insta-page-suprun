@@ -6,7 +6,7 @@ $(document).ready(function(){
     function showPhotos(){
         
         var i;        
-        var slides = $('.photo img');
+        var slides = $('#instafeed a');
         console.log(slides);
         console.log(slides.length);//12
         
@@ -24,6 +24,6 @@ $(document).ready(function(){
         }
         
         $(slides[slideIndex-1]).show();        
-        setTimeout(showPhotos, 200);        
+        setTimeout(showPhotos, 900);        
     }
 });

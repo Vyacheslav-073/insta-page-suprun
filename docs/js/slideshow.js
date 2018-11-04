@@ -24,6 +24,6 @@ $(document).ready(function(){
         }
         
         $(slides[slideIndex-1]).show();        
-        setTimeout(showPhotos, 900);        
+        setTimeout(showPhotos, 1900);        
     }
 });
